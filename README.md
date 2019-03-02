@@ -31,4 +31,6 @@ Many runs were performed over two months, with the same hardware as above. None 
 ## Problems
 I believe the system reduces into simple regression of differing parameters. I don't think it is suitable to regard it as a GA at all. The decisions made by the candidates in the trading task appeared to differ depending only on the length of samples taken, and z-score thresholds. This may explain why the system seemed to perform poorly when given the more qualitative input from the tweet sentiment task.
 
+Manually tuning the initial parameters was also tricky. There was a small window for chaos, otherwise the output data would be zeroed/oned out, or simply copies of the input.
+
 The algorithm was never implemented for GPGPU. As a result, my focus with Arbitrary pivoted towards researching methods of grammar induction and normalized semantic hashing.
