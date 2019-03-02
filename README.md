@@ -20,7 +20,7 @@ Live market tick data of a selection of equity ETFs was fed into the system, alo
 
 Several runs with manually adjusted initial parameters were performed on a mid-range server platform over about four months, with the longest run taking just over three weeks. Runs were halted when the fittest candidates persisted over two days.
 
-The code and states of the fittest candidates were manually analyzed. The fittest candidate from the three-week run recorded a profit 10.3%. I interpreted the fittest set of candidate's evaluation to be a form of segmented regression. I used this method to achieve 33.7% profit on a brokerage account over 2018. Notably, 'breakers' that I had implemented prevented the strategy from making any trades for most of February, and the last three months of 2018, when it had been trading at a loss.
+The code and states of the fittest candidates were manually analyzed. The fittest candidate from the three-week run recorded a profit 10.3%. I interpreted the fittest candidate's evaluation to be a form of segmented regression. I used this method to achieve 33.7% profit on a brokerage account over 2018. Notably, 'breakers' that I had implemented prevented the strategy from making any trades for most of February, and the last three months of 2018, when it had been trading at a loss.
 
 The best insight I received from these experiments was to perform statistical analysis on tick data instead of data segmented by time span, for short-term analysis. The scale of volume with regard to price is otherwise obscured.
 ### Tweet Sentiment
